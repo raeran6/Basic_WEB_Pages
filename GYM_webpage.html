@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Fitness</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(bg.jpg);
+            font-family: 'Anton', sans-serif;
+        }
+
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 0px;
+            /* border: 2px solid red; */
+            margin: 8px;
+            display: inline-block;
+            padding: 5px;
+
+        }
+
+        .mid {
+            display: block;
+            border: 4px solid lightblue;
+            margin: 8px auto;
+
+            width: 40%;
+            padding: 10px;
+            border-radius: 8px;
+
+
+
+
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            margin: 8px;
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            right: 34px;
+            padding: 5px;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+            padding-right: 50px;
+
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+
+
+
+        }
+
+        .navbar li a:hover {
+            color: red;
+        }
+
+        .left img {
+            width: 80px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 0px;
+
+        }
+
+        .btn {
+            margin: 18px 8px;
+            padding: 8px 15px;
+            border-radius: 6px;
+            background-color: black;
+            color: white;
+            border: 3px solid skyblue;
+            font-family: 'Anton', sans-serif;
+
+        }
+
+        .btn:hover {
+            color: red;
+        }
+
+        .container {
+            border: 4px solid skyblue;
+            display: inline-block;
+            width: 25%;
+            margin: 90px 80px;
+            padding: 50px;
+            border-radius: 8px;
+        }
+
+        .container h3 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            text-align: center;
+
+        }
+
+        .xxxx input {
+            margin: 6px 20px;
+            padding: 3px;
+            text-align: center;
+            display: block;
+            width: 80%;
+            border-radius: 6px;
+        }
+
+        .container button {
+            display: block;
+            margin: 20px auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="icon.png" alt="">
+            <div>Go Fitness</div>
+
+
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Customers</a></li>
+            </ul>
+
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">E-mail</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h3>Join the Best GYM of Delhi Now</h3>
+
+        <form action="action.php">
+            <div class="xxxx">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="xxxx">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="xxxx">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <div class="xxxx">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+
+
+
+    </div>
+
+   
+
+
+</body>
+
+</html>
